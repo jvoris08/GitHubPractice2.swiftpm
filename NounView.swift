@@ -11,7 +11,7 @@ struct NounView: View {
     @State var enteredWord: MadLib
     var body: some View {
             NavigationLink("Verb") {
-                VerbView()
+                VerbView(enteredWord: $enteredWord)
             }
         TextField("Noun", text: $enteredWord.Noun)
             }

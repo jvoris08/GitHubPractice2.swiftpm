@@ -9,8 +9,9 @@ import Foundation
 import SwiftUI
 
 struct SummaryView: View {
+    @Binding var enteredWord: MadLib
     var body: some View {
-        Text("The \(Noun) was \(Verb) to the \(Adjective) store.")
+        Text("The \(enteredWord.Noun) was \(enteredWord.Verb) to the \(enteredWord.Adjective) store.")
     }
 }
 

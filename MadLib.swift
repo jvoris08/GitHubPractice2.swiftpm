@@ -12,6 +12,6 @@ struct MadLib: View {
     @State var Verb = ""
     @State var Adjective = ""
     var body: some View {
-    
+    Text("MadLib")
     }
 }
