@@ -14,6 +14,7 @@ struct AdjectiveView: View {
         NavigationLink("Summary"){
             SummaryView()
         }
+        TextField("Adj", text: $enteredWord.Adjective )
     }
 }
 
