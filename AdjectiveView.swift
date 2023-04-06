@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AdjectiveView: View {
     
+    @Binding var enteredWord: MadLib
     var body: some View {
         NavigationLink("Summary"){
             SummaryView()
