@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct MyView: View {
+struct SummaryView: View {
     var body: some View {
         Text("The \(Noun) was \(Verb) to the \(Adjective) store.")
     }
