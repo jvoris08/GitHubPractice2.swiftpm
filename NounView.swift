@@ -12,6 +12,6 @@ struct NounView: View {
             NavigationLink("Verb") {
                 VerbView()
             }
+            }
     }
-}
 

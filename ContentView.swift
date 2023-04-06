@@ -6,6 +6,6 @@ struct ContentView: View {
             NavigationLink("Noun") {
                 NounView()
             }
+            }
         }
     }
-}
