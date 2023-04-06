@@ -1,5 +1,5 @@
 //
-//  VerbView.swift
+//  SummaryView.swift
 //  GitHubPractice2
 //
 //  Created by Jake Voris on 4/6/23.
@@ -8,11 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct VerbView: View {
+struct MyView: View {
     var body: some View {
-        NavigationLink("Adjective"){
-            AdjectiveView()
-        }
+        Text("The \(Noun) was \(Verb) to the \(Adjective) store.")
     }
 }
 
